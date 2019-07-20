@@ -1,14 +1,12 @@
 #include <vector>
-
-using std::vector;
+#include <iostream>
 
 class CircularQueue {
 private:
     int head;
     int tail;
     int size;
-    vector<int> data;
-public:
+    std::vector<int> data;
     explicit CircularQueue(int s) {
         size = s;
         head = -1;
@@ -56,4 +54,15 @@ public:
             return -1;
         return data[tail];
     };
+public:
+  static void test() {
+    CircularQueue q(5);
+    bool a = q.enQueue(1);
+    bool b = q.enQueue(2);
+    bool c = q.enQueue(3);
+    bool d = q.enQueue(4);
+    bool e = q.enQueue(5);
+    bool f = q.enQueue(6);
+    std::cout << a << b << c << d << e << f << std::endl;
+  }
 };

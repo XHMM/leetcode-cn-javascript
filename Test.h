@@ -1,9 +1,10 @@
 //
 // Created by xh on 2019/7/16.
 //
-
 #ifndef ALGORITHM_TEST_H
 #define ALGORITHM_TEST_H
+
+#include <iostream>
 
 class Base {
 protected:
