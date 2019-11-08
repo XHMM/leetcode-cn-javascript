@@ -66,3 +66,7 @@ public:
     std::cout << a << b << c << d << e << f << std::endl;
   }
 };
+
+int main() {
+  return 0;
+}

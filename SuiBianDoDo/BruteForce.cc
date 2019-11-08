@@ -1,10 +1,3 @@
-//
-// Created by xh on 2019/7/20.
-//
-#ifndef ALGORITHM_BRUTEFORCE_H
-#define ALGORITHM_BRUTEFORCE_H
-
-#include <string>
 #include <vector>
 #include <iostream>
 
@@ -52,4 +45,7 @@ public:
   }
 };
 
-#endif //ALGORITHM_BRUTEFORCE_H
+int main() {
+  BruteForce::test();
+  return 0;
+}

@@ -1,9 +1,3 @@
-//
-// Created by xh on 2019/7/16.
-//
-#ifndef ALGORITHM_CODINGINTERVIEW_H
-#define ALGORITHM_CODINGINTERVIEW_H
-
 #include <unordered_map>
 #include <iostream>
 
@@ -66,5 +60,6 @@ public:
     std::cout << res << std::endl;
   }
 };
-
-#endif //ALGORITHM_CODINGINTERVIEW_H
+int main() {
+  return 0;
+}
