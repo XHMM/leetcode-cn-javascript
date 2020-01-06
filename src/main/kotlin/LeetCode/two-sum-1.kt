@@ -2,7 +2,7 @@ package LeetCode
 
 import kotlin.collections.HashMap
 
-class Solution {
+class Solution1 {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         val map: HashMap<Int, Int> = hashMapOf()
         for(i in nums.indices) {
@@ -15,5 +15,5 @@ class Solution {
 }
 
 fun main() {
-    print(Solution().twoSum(intArrayOf(2, 7, 5, 4), 9).contentToString())
+    print(Solution1().twoSum(intArrayOf(2, 7, 5, 4), 9).contentToString())
 }
